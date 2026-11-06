@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover thoughtful toys for little imaginations at ToyNest. Shop playful, educational favorites for every age.">
+  <title>ToyNest | Big Fun for Little Imaginations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+  <div id="site-header"></div>
+  <main>
+    <section class="hero-section">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow"><i class="bi bi-stars"></i> Made for little moments</span>
+          <h1>Big Fun for<br><span>Little Imaginations</span></h1>
+          <p>Thoughtful toys, wonderful discoveries, and a little extra magic in every delivery.</p>
+          <div class="d-flex gap-3 flex-wrap">
+            <a class="btn btn-primary btn-pill" href="shop.html">Shop Now <i class="bi bi-arrow-right"></i></a>
+            <a class="btn btn-outline-light btn-pill" href="#categories">Explore Categories</a>
+          </div>
+          <div class="hero-note"><span class="avatar-stack"><i class="bi bi-emoji-smile-fill"></i><i class="bi bi-emoji-heart-eyes-fill"></i><i class="bi bi-emoji-laughing-fill"></i></span><span>Loved by <strong>10,000+</strong> happy families</span></div>
+        </div>
+        <div class="hero-art" aria-label="Colorful toys ready for play">
+          <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+          <img src="https://images.unsplash.com/photo-1599623560574-39d485900c95?auto=format&fit=crop&w=1000&q=85" alt="Colorful building blocks arranged for play" onerror="this.src='https://images.unsplash.com/photo-1560961911-ba7ef651a56c?auto=format&fit=crop&w=1000&q=85'">
+          <span class="float-tag tag-sun"><i class="bi bi-sun-fill"></i> Play more</span>
+          <span class="float-tag tag-heart"><i class="bi bi-heart-fill"></i> Grow happy</span>
+          <div class="hero-sticker"><strong>10%</strong><span>off your<br>first order</span></div>
+        </div>
+      </div>
+      <div class="hero-wave"></div>
+    </section>
+
+    <section class="benefit-strip container" aria-label="Our benefits">
+      <div><i class="bi bi-patch-check"></i><span><strong>Playfully safe</strong><small>Quality you can trust</small></span></div>
+      <div><i class="bi bi-truck"></i><span><strong>Free delivery</strong><small>On orders over $75</small></span></div>
+      <div><i class="bi bi-arrow-repeat"></i><span><strong>Easy returns</strong><small>30 days to decide</small></span></div>
+      <div><i class="bi bi-gift"></i><span><strong>Gift-ready</strong><small>Joy in every box</small></span></div>
+    </section>
+
+    <section id="categories" class="section-space container">
+      <div class="section-heading"><div><span class="eyebrow">A little something for everyone</span><h2>Find their kind of fun</h2></div><a class="text-link" href="shop.html">Explore all toys <i class="bi bi-arrow-right"></i></a></div>
+      <div id="category-grid" class="category-grid"></div>
+    </section>
+
+    <section class="section-space section-tint">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow">The little things they love</span><h2>Featured favorites</h2></div><a class="text-link" href="shop.html">Shop all toys <i class="bi bi-arrow-right"></i></a></div>
+        <div class="row g-4" id="featured-products"></div>
+      </div>
+    </section>
+
+    <section class="section-space container">
+      <div class="section-heading"><div><span class="eyebrow">The toys families come back for</span><h2>Our best sellers</h2></div><a class="text-link" href="shop.html?sort=popular">Shop best sellers <i class="bi bi-arrow-right"></i></a></div>
+      <div class="row g-4" id="best-sellers"></div>
+    </section>
+
+    <section class="section-space section-tint">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow">Fresh from the ToyNest</span><h2>New arrivals</h2></div><a class="text-link" href="shop.html?sort=newest">See what’s new <i class="bi bi-arrow-right"></i></a></div>
+        <div class="row g-4" id="new-arrivals"></div>
+      </div>
+    </section>
+
+    <section class="promo-banner container section-space">
+      <div class="promo-copy"><span class="eyebrow">A little more playtime</span><h2>Play big.<br>Save a little.</h2><p>Take 10% off your next adventure with code <strong>SAVE10</strong>.</p><a href="shop.html" class="btn btn-dark btn-pill">Find your favorite <i class="bi bi-arrow-right"></i></a></div>
+      <div class="countdown-wrap"><span class="countdown-label"><i class="bi bi-clock"></i> Little moments sale ends in</span><div class="countdown" id="sale-countdown" aria-live="polite"><span><strong>00</strong><small>hours</small></span><b>:</b><span><strong>00</strong><small>minutes</small></span><b>:</b><span><strong>00</strong><small>seconds</small></span></div><div class="promo-doodle"><i class="bi bi-stars"></i><i class="bi bi-balloon-heart-fill"></i></div></div>
+    </section>
+
+    <section class="section-space container">
+      <div class="section-heading"><div><span class="eyebrow">Little learners, big ideas</span><h2>Curiosity starts here</h2><p class="section-subtitle">Hands-on discoveries that make learning feel like play.</p></div><a class="text-link" href="shop.html?category=Educational%20Toys">Explore learning toys <i class="bi bi-arrow-right"></i></a></div>
+      <div class="row g-4" id="educational-products"></div>
+    </section>
+
+    <section class="story-banner">
+      <div class="container story-inner"><div><span class="eyebrow">Good toys. Great beginnings.</span><h2>Made for play.<br>Picked with care.</h2><p>We believe the best toys bring families together, spark new ideas, and make ordinary days a little more magical.</p><a href="about.html" class="btn btn-primary btn-pill">Get to know us <i class="bi bi-arrow-right"></i></a></div><div class="story-image"><img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=900&q=85" alt="Parent and child enjoying playtime"></div></div>
+    </section>
+
+    <section class="section-space container">
+      <div class="section-heading"><div><span class="eyebrow">Kind words from our nest</span><h2>Little toys, big smiles</h2></div></div>
+      <div class="row g-4">
+        <div class="col-md-4"><article class="testimonial-card"><div class="stars">★★★★★</div><p>“The quality is lovely and my daughter has played with her building set every day since it arrived.”</p><div class="reviewer"><span class="review-avatar coral">M</span><span><strong>Maya R.</strong><small>Parent of a curious 5-year-old</small></span></div></article></div>
+        <div class="col-md-4"><article class="testimonial-card"><div class="stars">★★★★★</div><p>“A thoughtful selection, quick delivery, and the gift wrapping made the birthday extra special.”</p><div class="reviewer"><span class="review-avatar mint">J</span><span><strong>James L.</strong><small>Very happy uncle</small></span></div></article></div>
+        <div class="col-md-4"><article class="testimonial-card"><div class="stars">★★★★★</div><p>“Finally found toys that are as fun as they are enriching. Shopping here feels easy and joyful.”</p><div class="reviewer"><span class="review-avatar yellow">A</span><span><strong>Amira K.</strong><small>Parent of two explorers</small></span></div></article></div>
+      </div>
+    </section>
+
+    <section class="newsletter-section"><div class="container newsletter-inner"><div><span class="eyebrow">A little joy in your inbox</span><h2>Join the ToyNest family</h2><p>Get playful ideas, new arrivals, and 10% off your first order.</p></div><form id="newsletter-form" class="newsletter-form"><label class="visually-hidden" for="newsletter-email">Your email address</label><input id="newsletter-email" type="email" placeholder="Your email address" required><button class="btn btn-primary btn-pill" type="submit">Count me in <i class="bi bi-arrow-right"></i></button></form></div></section>
+  </main>
+  <div id="site-footer"></div>
+  <div id="quick-view-modal" class="modal fade" tabindex="-1" aria-labelledby="quick-view-title" aria-hidden="true"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/products.js"></script><script src="js/common.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const categories = [
+        ['Building Blocks','bi-boxes','category-blue'],['Soft Toys & Teddy Bears','bi-heart','category-coral'],['Educational Toys','bi-lightbulb','category-yellow'],['Remote Control Cars','bi-car-front','category-mint'],
+        ['Dolls & Dollhouses','bi-house-heart','category-lilac'],['Board Games & Puzzles','bi-puzzle','category-peach'],['Outdoor Toys','bi-wind','category-sky'],['STEM & Science Kits','bi-rocket-takeoff','category-green']
+      ];
+      document.getElementById('category-grid').innerHTML = categories.map(([name,icon,color]) => `<a class="category-card ${color}" href="shop.html?category=${encodeURIComponent(name.replace(' & Teddy Bears',' and Teddy Bears').replace(' & Dollhouses',' and Dollhouses').replace(' & Puzzles',' and Puzzles').replace(' & Science Kits',' and Science Kits'))}"><span class="category-icon"><i class="bi ${icon}"></i></span><strong>${name}</strong><small>Explore collection <i class="bi bi-arrow-right"></i></small></a>`).join('');
+      const card = id => ToyNest.productCard(TOYNEST_PRODUCTS.find(product => product.id === id));
+      document.getElementById('featured-products').innerHTML = ['block-buddy-set','cloud-nine-bunny','little-chef-kitchen','rocket-engineer-kit'].map(card).join('');
+      document.getElementById('best-sellers').innerHTML = [...TOYNEST_PRODUCTS].sort((a,b) => b.popularity - a.popularity).slice(0,4).map(ToyNest.productCard).join('');
+      document.getElementById('new-arrivals').innerHTML = [...TOYNEST_PRODUCTS].sort((a,b) => new Date(b.created) - new Date(a.created)).slice(0,4).map(ToyNest.productCard).join('');
+      document.getElementById('educational-products').innerHTML = ['rainbow-counting-board','junior-science-lab','solar-system-puzzle','woodland-shape-sorter'].map(card).join('');
+      ToyNest.startCountdown(document.getElementById('sale-countdown'));
+    });
+  </script>
+</body>
+</html>
